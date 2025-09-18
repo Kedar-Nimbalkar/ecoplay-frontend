@@ -1,5 +1,5 @@
 // Later, replace with your Render backend URL
-const API_BASE = "https://ecoplay-backend.onrender.com/";
+const API_BASE = "http://localhost:10000";
 
 let currentUser = null;
 
@@ -31,4 +31,5 @@ async function loadQuizzes() {
     quizList.appendChild(div);
   });
 }
+
 
